@@ -1,0 +1,11 @@
+{
+  "name": "phantasia",
+  "version": "1.0.0",
+  "description": "Tour site for travelling to fictional destinations.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
