@@ -1,22 +1,59 @@
 body {
     background: linear-gradient(#8A6BB8, #150E20);
-    color: #7857a8;
+    color: #ae9aca;
+    font-family: 'Amiri', serif;
+}
+
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-body {
+    background: #E0F0E6;
+    color: #a48ac9;
+}
+
+.carousel {
+    width:640px;
+    height:360px;
+    overflow: hidden;
 }
 
 .carousel-caption {
-    color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, 0.5);
     font-weight: bold;
 }
 
+h2 {
+    font-weight: bold;
+}
+
+h4 {
+    font-style: italic;
+}
+
 #homeJumbo {
-    background-image: url("/img/stars.jpg");
-    /* background-size: strech; */
+    background-image: url("/img/skyMd.jpg");
+    background-size: cover;
     /* background: linear-gradient(#8A6BB8, #150E20); */
-    color: #7857a8;
+    color: #d9c3fa;
+    height: 100%;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#homeName {
+    font-size: 8rem;
+}
+
+#homeTag {
+    font-size: 5rem;
 }
 
 .jumbotron {
     background: linear-gradient(to top, #8A6BB8, #150E20);
+    background-image: url("/img/oldBanner.jpg");
+    overflow: hidden;
 }
 
 .navbar {
