@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(#8A6BB8, #150E20);
+    color: #7857a8;
+}
+
+.carousel-caption {
+    color: rgba(0, 0, 0, .8);
+    font-weight: bold;
+}
+
+#homeJumbo {
+    background-image: url("/img/stars.jpg");
+    /* background-size: strech; */
+    /* background: linear-gradient(#8A6BB8, #150E20); */
+    color: #7857a8;
+}
+
+.jumbotron {
+    background: linear-gradient(to top, #8A6BB8, #150E20);
+}
+
+.navbar {
+    background-color: #150E20;
+}
+
+.nav-item {
+    color: #B3A3C2;
+}
