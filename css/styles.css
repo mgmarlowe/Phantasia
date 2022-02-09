@@ -9,6 +9,10 @@ body {
     font-family: 'Amiri', serif;
 }
 
+.btn-social-icon {
+    color: inherit;
+}
+
 .card {
     border-radius: 20px;
     overflow: hidden;
@@ -30,8 +34,9 @@ body {
     font-weight: bold;
 }
 
-.btn-social-icon {
-    color: inherit;
+.destInfo {
+    overflow-y: scroll;
+    height: auto;
 }
 
 h2 {
@@ -76,4 +81,8 @@ h4 {
 .site-footer {
     background: linear-gradient(to top, #8A6BB8, #150E20);
     padding: 20px 0;
+}
+
+aside .sticky-top {
+    top: 80px;
 }
