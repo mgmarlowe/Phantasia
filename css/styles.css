@@ -3,9 +3,21 @@ a, a:hover {
     text-decoration: none;
 }
 
+aside a:active {
+    font-weight: bold;
+}
+
+aside .nav-item.active {
+    font-weight: bold;
+}
+
+aside .sticky-top {
+    top: 80px;
+}
+
 body {
     background: linear-gradient(#8A6BB8, #150E20);
-    color: #ae9aca;
+    color: #cdc0e0;
     font-family: 'Amiri', serif;
 }
 
@@ -20,7 +32,7 @@ body {
 
 .card-body {
     background: #E0F0E6;
-    color: #a48ac9;
+    color: #9479b9;
 }
 
 .carousel {
@@ -83,6 +95,6 @@ h4 {
     padding: 20px 0;
 }
 
-aside .sticky-top {
-    top: 80px;
+.tourContent {
+    height: auto;
 }
