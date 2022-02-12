@@ -3,6 +3,12 @@ a, a:hover {
     text-decoration: none;
 }
 
+.accordian-button {
+    color: #150E20;
+    font-weight: bold;
+    font-size: .75em;
+}
+
 aside a:active {
     font-weight: bold;
 }
@@ -28,6 +34,10 @@ body {
 .card {
     border-radius: 20px;
     overflow: hidden;
+}
+
+.card-header {
+    background: #8A6BB8;
 }
 
 .card-body {
